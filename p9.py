@@ -9,7 +9,7 @@ def product_details(product_id, name, quantity, price):
 
 if __name__ == "__main__":
     pid = int(sys.argv[1])
-    name = input("name:")
+    name = input(sys.argv[2])
     quantity = int(sys.argv[3])
     price = float(sys.argv[4])
 
